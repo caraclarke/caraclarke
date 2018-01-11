@@ -1,17 +1,13 @@
 /***************************
   BASE
 ****************************/
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "base/variables";
 
 /***************************
   PARTIALS
 ****************************/
+@import "partials/navbar";
 
 /***************************
   STANDARD
 ****************************/
-body {
-  background-color: $neutral-white;
-  color: $neutral-black;
-}
