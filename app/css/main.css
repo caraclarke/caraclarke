@@ -115,9 +115,25 @@ body {
 .main-section {
   padding-right: 30px;
   padding-left: 25px; }
+  .main-section h1,
+  .main-section h2,
+  .main-section h3,
+  .main-section h4,
+  .main-section h5 {
+    color: #225378; }
 
 .section {
   padding: 50px 25px 0; }
+  .section h4 {
+    font-size: 18px; }
+  .section a {
+    color: #1595A3; }
+    .section a:hover, .section a:focus, .section a:active {
+      color: #eb7f00;
+      text-decoration: none; }
+  .section .icon {
+    padding: 5px 20px 5px 10px;
+    margin-right: 5px; }
   .section .orange-text {
     color: #eb7f00; }
 

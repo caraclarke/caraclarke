@@ -1,3 +1,5 @@
+.icon--book { background-image: url('png/book.png'); background-repeat: no-repeat; }
+
 .icon--code { background-image: url('png/code.png'); background-repeat: no-repeat; }
 
 .icon--coffee { background-image: url('png/coffee.png'); background-repeat: no-repeat; }
@@ -11,4 +13,6 @@
 .icon--javascript { background-image: url('png/javascript.png'); background-repeat: no-repeat; }
 
 .icon--linkedin { background-image: url('png/linkedin.png'); background-repeat: no-repeat; }
+
+.icon--world { background-image: url('png/world.png'); background-repeat: no-repeat; }
 
