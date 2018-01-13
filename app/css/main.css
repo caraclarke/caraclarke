@@ -4,6 +4,52 @@
 /***************************
   PARTIALS
 ****************************/
+#main {
+  font-family: Helvetica, Arial, sans-serif; }
+  #main h1 {
+    color: #225378; }
+
+.btn-primary.btn-blue {
+  color: #fff;
+  background-color: #225378;
+  border-color: #225378; }
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active,
+.btn-blue.active,
+.open .dropdown-toggle.btn-blue {
+  color: #fff;
+  background-color: #eb7f00;
+  border-color: #eb7f00; }
+
+.btn-blue:active,
+.btn-blue.active,
+.open .dropdown-toggle.btn-blue {
+  background-image: none; }
+
+.btn-blue.disabled,
+.btn-blue[disabled],
+fieldset[disabled] .btn-blue,
+.btn-blue.disabled:hover,
+.btn-blue[disabled]:hover,
+fieldset[disabled] .btn-blue:hover,
+.btn-blue.disabled:focus,
+.btn-blue[disabled]:focus,
+fieldset[disabled] .btn-blue:focus,
+.btn-blue.disabled:active,
+.btn-blue[disabled]:active,
+fieldset[disabled] .btn-blue:active,
+.btn-blue.disabled.active,
+.btn-blue[disabled].active,
+fieldset[disabled] .btn-blue.active {
+  background-color: #225378;
+  border-color: #225378; }
+
+.btn-blue .badge {
+  color: #225378;
+  background-color: #fff; }
+
 nav.navbar,
 .bg-light {
   background-color: #fff !important;
@@ -139,11 +185,6 @@ body {
   .section .orange-text {
     color: #eb7f00; }
 
-#main {
-  font-family: Helvetica, Arial, sans-serif; }
-  #main h1 {
-    color: #225378; }
-
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -221,6 +262,16 @@ body {
   min-height: 100%;
   padding: 100px 0;
   text-align: center; }
+  .portfolio-modal .modal-content p {
+    text-align: left; }
+  .portfolio-modal .modal-content a {
+    color: #1595A3; }
+    .portfolio-modal .modal-content a:hover, .portfolio-modal .modal-content a:focus, .portfolio-modal .modal-content a:active {
+      color: #eb7f00;
+      text-decoration: none; }
+  .portfolio-modal .modal-content img {
+    width: auto;
+    max-width: 550px; }
 
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
@@ -255,7 +306,7 @@ body {
   opacity: 0.3; }
 
 .portfolio-modal .close-modal .lr {
-  height: 75px;
+  height: 50px;
   width: 1px;
   margin-left: 35px;
   background-color: #222;
@@ -265,7 +316,7 @@ body {
   z-index: 1051; }
 
 .portfolio-modal .close-modal .lr .rl {
-  height: 75px;
+  height: 50px;
   width: 1px;
   background-color: #222;
   transform: rotate(90deg);

@@ -1,0 +1,53 @@
+#main {
+  font-family: Helvetica, Arial, sans-serif;
+
+  h1 {
+    color: $color-blue;
+  }
+}
+
+.btn-primary.btn-blue {
+  color: $neutral-white;
+  background-color: $color-blue;
+  border-color: $color-blue;
+}
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active,
+.btn-blue.active,
+.open .dropdown-toggle.btn-blue {
+  color: $neutral-white;
+  background-color: $color-orange;
+  border-color: $color-orange;
+}
+
+.btn-blue:active,
+.btn-blue.active,
+.open .dropdown-toggle.btn-blue {
+  background-image: none;
+}
+
+.btn-blue.disabled,
+.btn-blue[disabled],
+fieldset[disabled] .btn-blue,
+.btn-blue.disabled:hover,
+.btn-blue[disabled]:hover,
+fieldset[disabled] .btn-blue:hover,
+.btn-blue.disabled:focus,
+.btn-blue[disabled]:focus,
+fieldset[disabled] .btn-blue:focus,
+.btn-blue.disabled:active,
+.btn-blue[disabled]:active,
+fieldset[disabled] .btn-blue:active,
+.btn-blue.disabled.active,
+.btn-blue[disabled].active,
+fieldset[disabled] .btn-blue.active {
+  background-color: $color-blue;
+  border-color: $color-blue;
+}
+
+.btn-blue .badge {
+  color: $color-blue;
+  background-color: $neutral-white;
+}

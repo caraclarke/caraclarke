@@ -92,6 +92,26 @@
   min-height: 100%;
   padding: 100px 0;
   text-align: center;
+
+  p {
+    text-align: left;
+  }
+
+  a {
+    color: $color-light-blue;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $color-orange;
+      text-decoration: none;
+    }
+  }
+
+  img {
+    width: auto;
+    max-width: 550px;
+  }
 }
 
 .portfolio-modal .modal-content h2 {
@@ -134,7 +154,7 @@
 }
 
 .portfolio-modal .close-modal .lr {
-  height: 75px;
+  height: 50px;
   width: 1px;
   margin-left: 35px;
   background-color: #222;
@@ -145,7 +165,7 @@
 }
 
 .portfolio-modal .close-modal .lr .rl {
-  height: 75px;
+  height: 50px;
   width: 1px;
   background-color: #222;
   transform: rotate(90deg);
