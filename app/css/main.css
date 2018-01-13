@@ -6,7 +6,8 @@
 ****************************/
 nav.navbar,
 .bg-light {
-  background-color: #fff !important; }
+  background-color: #fff !important;
+  border-bottom: 1px solid #225378; }
   nav.navbar .navbar-brand,
   .bg-light .navbar-brand {
     color: #225378; }
@@ -111,5 +112,14 @@ body {
   min-height: 75rem;
   padding-top: 4.5rem; }
 
+.main-section {
+  padding-right: 30px;
+  padding-left: 25px; }
+
 .section {
-  border-top: 1px solid red; }
+  padding: 50px 25px 0; }
+  .section .orange-text {
+    color: #eb7f00; }
+
+#main h1 {
+  color: #225378; }

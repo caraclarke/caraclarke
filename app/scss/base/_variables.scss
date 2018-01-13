@@ -1,10 +1,13 @@
 // colors
 $neutral-black: #000;
 $neutral-white: #fff;
+$color-blue: #225378;
+$color-light-blue: #1595A3;
+$color-orange: #eb7f00;
 
 // navbar
 $bg-default: $neutral-white;
 $bg-highlight: $neutral-white;
-$col-default: #225378;
-$col-highlight: #eb7f00;
+$col-default: $color-blue;
+$col-highlight: $color-orange;
 $drop-down: false;
