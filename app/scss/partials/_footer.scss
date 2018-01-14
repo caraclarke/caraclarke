@@ -3,6 +3,10 @@
   padding-top: 25px;
   padding-left: 50px;
 
+  @media (max-width: 577px) {
+    padding-right: 24px;
+  }
+
   h2 {
     margin-bottom: 0;
   }
