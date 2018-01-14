@@ -260,6 +260,9 @@ body {
   max-width: 600px;
   margin-bottom: 24px; }
 
+.job-section p {
+  padding-right: 50px; }
+
 #contact .contact-list {
   list-style: none;
   padding-left: 0; }
