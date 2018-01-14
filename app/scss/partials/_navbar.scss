@@ -3,6 +3,10 @@ nav.navbar,
   background-color: $bg-default !important;
   border-bottom: 1px solid $color-blue;
 
+  .marker {
+    font-family: $font, sans-serif;
+  }
+
   .navbar-brand {
     color: $col-default;
 

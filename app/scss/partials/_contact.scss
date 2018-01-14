@@ -1,0 +1,15 @@
+#contact {
+  .contact-list {
+    list-style: none;
+    padding-left: 15px;
+
+    li {
+      display: inline-block;
+      margin-right: 50px;
+    }
+
+    p {
+      display: inline-block;
+    }
+  }
+}

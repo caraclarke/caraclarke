@@ -1,13 +1,12 @@
 /***************************
   BASE
 ****************************/
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
 /***************************
   PARTIALS
 ****************************/
-#main {
-  font-family: Helvetica, Arial, sans-serif; }
-  #main h1 {
-    color: #225378; }
+#main h1 {
+  color: #225378; }
 
 .btn-primary.btn-blue {
   color: #fff;
@@ -54,6 +53,9 @@ nav.navbar,
 .bg-light {
   background-color: #fff !important;
   border-bottom: 1px solid #225378; }
+  nav.navbar .marker,
+  .bg-light .marker {
+    font-family: "Permanent Marker", sans-serif; }
   nav.navbar .navbar-brand,
   .bg-light .navbar-brand {
     color: #225378; }
@@ -327,3 +329,12 @@ body {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none; }
+
+#contact .contact-list {
+  list-style: none;
+  padding-left: 15px; }
+  #contact .contact-list li {
+    display: inline-block;
+    margin-right: 50px; }
+  #contact .contact-list p {
+    display: inline-block; }
