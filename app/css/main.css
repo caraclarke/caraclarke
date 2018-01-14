@@ -274,3 +274,6 @@ body {
   padding-left: 0; }
   #contact .contact-list p {
     display: inline-block; }
+
+#contact .contact-email p {
+  display: inline-block; }
