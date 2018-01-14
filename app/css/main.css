@@ -197,6 +197,8 @@ nav.navbar,
     color: #eb7f00; }
   .section .blue-text {
     color: #225378; }
+  .section .bold-text {
+    font-weight: bold; }
 
 #about .about-me {
   padding-left: 15px;
