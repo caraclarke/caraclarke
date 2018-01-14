@@ -172,6 +172,12 @@ body {
 
 .section {
   padding: 50px 25px 0; }
+  .section .service-heading {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #eb7f00; }
   .section .small-heading {
     font-size: 20px; }
   .section h4 {

@@ -14,6 +14,12 @@
 .section {
   padding: 50px 25px 0;
 
+  .service-heading {
+    width: fit-content;
+    padding-bottom: 4px;
+    border-bottom: 1px solid $color-orange;
+  }
+
   .small-heading {
     font-size: 20px;
   }
