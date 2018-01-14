@@ -195,6 +195,13 @@ nav.navbar,
     margin-right: 5px; }
   .section .orange-text {
     color: #eb7f00; }
+  .section .blue-text {
+    color: #225378; }
+
+#about .about-me {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 32px; }
 
 #portfolio .portfolio-item {
   margin: 0 0 15px;

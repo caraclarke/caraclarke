@@ -52,4 +52,16 @@
   .orange-text {
     color: $color-orange;
   }
+
+  .blue-text {
+    color: $color-blue;
+  }
+}
+
+#about {
+  .about-me {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 32px;
+  }
 }
