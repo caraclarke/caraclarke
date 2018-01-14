@@ -255,6 +255,11 @@ body {
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
 
+.portfolio-page img {
+  width: auto;
+  max-width: 600px;
+  margin-bottom: 24px; }
+
 #contact .contact-list {
   list-style: none;
   padding-left: 0; }
