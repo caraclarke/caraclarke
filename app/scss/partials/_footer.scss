@@ -1,0 +1,28 @@
+.footer {
+  border-top: 5px solid $color-blue;
+  padding-top: 25px;
+  padding-left: 50px;
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: $color-blue;
+  }
+
+  .menu-list {
+    margin-right: 50px;
+  }
+
+  .footer-menu,
+  .footer-contact {
+    list-style: none;
+    padding-left: 12px;
+
+    li {
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+  }
+}

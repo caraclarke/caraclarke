@@ -5,6 +5,12 @@
 /***************************
   PARTIALS
 ****************************/
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem; }
+  body .marker {
+    font-family: "Permanent Marker", sans-serif; }
+
 #main h1 {
   color: #225378; }
 
@@ -53,9 +59,6 @@ nav.navbar,
 .bg-light {
   background-color: #fff !important;
   border-bottom: 1px solid #225378; }
-  nav.navbar .marker,
-  .bg-light .marker {
-    font-family: "Permanent Marker", sans-serif; }
   nav.navbar .navbar-brand,
   .bg-light .navbar-brand {
     color: #225378; }
@@ -155,10 +158,6 @@ nav.navbar,
 .navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item.active {
   color: #eb7f00;
   background-color: #fff; }
-
-body {
-  min-height: 75rem;
-  padding-top: 4.5rem; }
 
 .main-section {
   padding-right: 30px;
@@ -277,3 +276,22 @@ body {
 
 #contact .contact-email p {
   display: inline-block; }
+
+.footer {
+  border-top: 5px solid #225378;
+  padding-top: 25px;
+  padding-left: 50px; }
+  .footer h2 {
+    margin-bottom: 0; }
+  .footer a {
+    color: #225378; }
+  .footer .menu-list {
+    margin-right: 50px; }
+  .footer .footer-menu,
+  .footer .footer-contact {
+    list-style: none;
+    padding-left: 12px; }
+    .footer .footer-menu li,
+    .footer .footer-contact li {
+      padding-top: 4px;
+      padding-bottom: 4px; }
