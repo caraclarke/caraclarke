@@ -332,9 +332,6 @@ body {
 
 #contact .contact-list {
   list-style: none;
-  padding-left: 15px; }
-  #contact .contact-list li {
-    display: inline-block;
-    margin-right: 50px; }
+  padding-left: 0; }
   #contact .contact-list p {
     display: inline-block; }
