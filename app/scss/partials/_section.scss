@@ -7,7 +7,7 @@
   h3,
   h4,
   h5 {
-    color: $color-blue;
+    color: $color-main;
   }
 }
 
@@ -22,7 +22,7 @@
   .service-heading {
     width: fit-content;
     padding-bottom: 4px;
-    border-bottom: 1px solid $color-orange;
+    border-bottom: 1px solid $color-highlight;
   }
 
   .small-heading {
@@ -34,12 +34,12 @@
   }
 
   a {
-    color: $color-light-blue;
+    color: $color-light-main;
 
     &:hover,
     &:focus,
     &:active {
-      color: $color-orange;
+      color: $color-highlight;
       text-decoration: none;
     }
   }
@@ -49,12 +49,12 @@
     margin-right: 5px;
   }
 
-  .orange-text {
-    color: $color-orange;
+  .highlight-text {
+    color: $color-highlight;
   }
 
-  .blue-text {
-    color: $color-blue;
+  .main-text {
+    color: $color-main;
   }
 
   .bold-text {

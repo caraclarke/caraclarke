@@ -9,14 +9,14 @@ body {
 
 #main {
   h1 {
-    color: $color-blue;
+    color: $color-main;
   }
 }
 
 .btn-primary.btn-blue {
   color: $neutral-white;
-  background-color: $color-blue;
-  border-color: $color-blue;
+  background-color: $color-main;
+  border-color: $color-main;
 }
 
 .btn-blue:hover,
@@ -25,8 +25,8 @@ body {
 .btn-blue.active,
 .open .dropdown-toggle.btn-blue {
   color: $neutral-white;
-  background-color: $color-orange;
-  border-color: $color-orange;
+  background-color: $color-highlight;
+  border-color: $color-highlight;
 }
 
 .btn-blue:active,
@@ -50,11 +50,11 @@ fieldset[disabled] .btn-blue:active,
 .btn-blue.disabled.active,
 .btn-blue[disabled].active,
 fieldset[disabled] .btn-blue.active {
-  background-color: $color-blue;
-  border-color: $color-blue;
+  background-color: $color-main;
+  border-color: $color-main;
 }
 
 .btn-blue .badge {
-  color: $color-blue;
+  color: $color-main;
   background-color: $neutral-white;
 }

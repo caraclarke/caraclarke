@@ -193,9 +193,9 @@ nav.navbar,
   .section .icon {
     padding: 5px 20px 5px 10px;
     margin-right: 5px; }
-  .section .orange-text {
+  .section .highlight-text {
     color: #eb7f00; }
-  .section .blue-text {
+  .section .main-text {
     color: #225378; }
   .section .bold-text {
     font-weight: bold; }
