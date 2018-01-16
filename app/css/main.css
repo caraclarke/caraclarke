@@ -171,6 +171,8 @@ nav.navbar,
 
 .section {
   padding: 50px 25px 0; }
+  .section h2 {
+    margin-bottom: 16px; }
   @media (max-width: 577px) {
     .section {
       padding-right: 8px;
