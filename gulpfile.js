@@ -138,7 +138,7 @@ gulp.task('useref', function() {
 gulp.task('serve:build', function() {
   browserSync.init({
     server: {
-      baseDir: 'dist'
+      baseDir: '.'
     }
   });
 });
