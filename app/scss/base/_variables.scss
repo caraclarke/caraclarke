@@ -1,14 +1,14 @@
 // colors
 $neutral-black: #000;
 $neutral-white: #fff;
-$color-main: #225378;
-$color-light-main: #1595A3;
-$color-highlight: #eb7f00;
-$color-lighter-highlight: #ffac4d;
-$color-lightest-main: #acf0f2;
+$color-main: #031E6E; //#225378;
+$color-light-main: #084092; //#2384C2; //#1595A3;
+$color-highlight: #2384C2; //#F07300; //#eb7f00;
+$color-lighter-highlight: #F07300; //#ffac4d;
+$color-lightest-main: #5F6366; // #acf0f2;
 
 // navbar
-$bg-default: $neutral-white;
+$bg-default: $color-main;
 $bg-highlight: $neutral-white;
 $col-default: $color-main;
 $col-highlight: $color-highlight;
