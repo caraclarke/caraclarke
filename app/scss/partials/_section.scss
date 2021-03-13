@@ -26,7 +26,7 @@
   .service-heading {
     width: fit-content;
     padding-bottom: 4px;
-    border-bottom: 1px solid $color-highlight;
+    border-bottom: 2px solid $color-lighter-highlight;
   }
 
   .small-heading {
@@ -63,6 +63,13 @@
 
   .bold-text {
     font-weight: bold;
+  }
+
+  .big-text {
+    color: $color-main;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.5em 0;
   }
 }
 
